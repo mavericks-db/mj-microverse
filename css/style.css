@@ -1,7 +1,16 @@
- body {
+body {
     margin: 0 auto;
     padding: 0;
+    background-color: white;
 } 
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #navbar {
     background-color: gray;
@@ -42,36 +51,69 @@
 }
 
 #welcome-section {
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
     height: 100vh;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
 }
-/* 
-@media screen (min-width: 500px) {
-        #welcome-section {
-            font-size: 80px;
-            color: aqua;
-        }
-    } */
 
-@media screen and (max-width: 480px) {
+@media (max-width: 50em) {
   html {
     font-size: 60%;
   }
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   #welcome-section {
     background-color: lightgreen;
   }
-}
+} */
 
 .container {
-    background-color: yellow;
-    width: 600px;
+    background-color: darkcyan;
     margin: 0 auto;
     color: darkblue;
+    border: 0;
+    text-align: center;
+    width: 1000px;
+
 }
 
 .projects {
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.ourprof {
+    display: block;
+    text-align: center;
+}
+#ourprofiles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+image {
+    display: block;
 }
