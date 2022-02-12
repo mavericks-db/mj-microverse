@@ -1,0 +1,46 @@
+/* body {
+    margin: 0 auto;
+    padding: 0;
+} */
+
+.navbar {
+    background-color: gray;
+    color: white;
+    position: top;
+    top: 0;
+}
+
+#welcome-section {
+    height: 100vh;
+}
+/* 
+@media screen (min-width: 500px) {
+        #welcome-section {
+            font-size: 80px;
+            color: aqua;
+        }
+    } */
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #welcome-section {
+    background-color: lightgreen;
+  }
+}
+
+.container {
+    background-color: yellow;
+    width: 600px;
+    margin: 0 auto;
+    color: darkblue;
+}
+
+.projects {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
